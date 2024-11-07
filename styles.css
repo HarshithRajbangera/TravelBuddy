@@ -19,4 +19,18 @@
     background-color: rgb(38, 228, 232);
     margin-top: 20px;
 }
+@media(max-width:600px){
+    .container{
+    
+        margin-top:20px;
+        width:100%;
+    
+        
+    }
+    .carousel-item img {
+        height: 300px; /* Set a fixed height */
+        object-fit: cover; /* Ensures images fill the container without stretching */
+        width:100%;
+    }
+}
 

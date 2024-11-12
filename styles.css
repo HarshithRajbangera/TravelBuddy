@@ -32,5 +32,6 @@
         object-fit: cover; /* Ensures images fill the container without stretching */
         width:100%;
     }
-}
+    
 
+}

@@ -1,0 +1,72 @@
+.title{
+    color:rgb(30, 233, 233);
+    text-align:center;
+}
+.container{
+    
+    margin-top:20px;
+    width:60%;
+
+    
+}
+.carousel-item img {
+    height: 500px; /* Set a fixed height */
+    object-fit: cover; /* Ensures images fill the container without stretching */
+}
+
+/* Footer Styles */
+.footer {
+    background-color: rgb(38, 228, 232);
+    margin-top: 20px;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.userpost{
+    background-color: rgb(139, 228, 198);
+    width:70%;
+    height:500px;
+   
+}
+.addpostbtn{
+    background-color: rgb(239, 239, 54);
+
+}
+.carousel-header{
+    background-color: rgb(238, 188, 24);
+    font-weight: bolder;
+}
+@media(max-width:600px){
+    .container{
+    
+        margin-top:20px;
+        width:100%;
+    
+        
+    }
+    .carousel-item img {
+        height: 300px; /* Set a fixed height */
+        object-fit: cover; /* Ensures images fill the container without stretching */
+        width:100%;
+    }
+    .container1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+    .userpost{
+        background-color: rgb(139, 228, 198);
+        width:90%;
+       
+    }
+    .small{
+        
+    }
+    
+
+}

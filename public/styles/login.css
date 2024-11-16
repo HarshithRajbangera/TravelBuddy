@@ -1,0 +1,29 @@
+
+.form{
+  
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh; 
+}
+.login{
+    height:200px;
+    width:70%;
+    background-color: rgb(115, 175, 199);
+    text-align: center;
+}
+.input-group{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:10px;
+}
+label{
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;
+    width:100px;
+    margin-right:10px;
+    
+}
+
